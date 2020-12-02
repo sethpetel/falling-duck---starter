@@ -2,7 +2,8 @@
     "name": "Falling Duck - Starter",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
