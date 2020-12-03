@@ -380,3 +380,4 @@ let flapAnim = animation.createAnimation(ActionKind.Jumping, 25)
 for(let index = 0; index < duckAnimationFrames.length; index++){
     flapAnim.addAnimationFrame(duckAnimationFrames[index])
 }
+animation.attachAnimation(duck, flapAnim)
