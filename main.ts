@@ -6,12 +6,7 @@ enum ActionKind {
 namespace SpriteKind {
     export const Gap = SpriteKind.create()
 }
-let gapSprite: Sprite = null
-let gapImage: Image = null
-let bottomImage: Image = null
-let topImage: Image = null
-let gapNumber = 0
-let duck: Sprite = null
+
 // All the images for animating our duck.
 let duckAnimationFrames = [
 img`
